@@ -1,0 +1,38 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./bin",
+    "sourceMap": true,
+    "declaration": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "typeRoots": [
+      "node_modules/@types",
+    ],
+    "lib": [
+      "esnext",
+      "DOM"
+    ],
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "alwaysShowRuleFailuresAsWarnings": false,
+        "ignoreDefinitionFiles": false,
+        "configFile": "./tslint.json",
+        "suppressWhileTypeErrorsPresent": false,
+        "packageManager": "yarn"
+      }
+    ]
+  },
+  "files": [
+    "./src/index.ts"
+  ]
+}
