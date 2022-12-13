@@ -25,7 +25,7 @@
     "binary-parser": "^1.6.2",
     "bluebird": "^3.7.2",
     "dataurl": "^0.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-pouchdb": "^4.2.0",
     "ffi-napi": "^2.4.6",
     "fs-extra": "^8.1.0",
